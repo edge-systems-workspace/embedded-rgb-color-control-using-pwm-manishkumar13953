@@ -22,26 +22,33 @@ void setup() {
 }
 
 void loop() {
+    digitalWrite(red_led, LOW);
+    digitalWrite(green_led, HIGH);
+    digitalWrite(blue_led, LOW);
+    delay(1000);
 
-    // -------- DIGITAL MODE --------
+    digitalWrite(red_led, HIGH);
+    digitalWrite(green_led, HIGH);
+    digitalWrite(blue_led, LOW);
+    delay(1000);
 
-    // TODO 7:
-    // Turn ON red (digital HIGH)
+    digitalWrite(red_led, HIGH);
+    digitalWrite(green_led, LOW);
+    digitalWrite(blue_led, HIGH);
+    delay(1000);
 
-    // TODO 8:
-    // Turn OFF red
+    digitalWrite(red_led, LOW);
+    digitalWrite(green_led, HIGH);
+    digitalWrite(blue_led, HIGH);
+    delay(1000);
 
-    // -------- ANALOG (PWM) MODE --------
+    digitalWrite(red_led, LOW);
+    digitalWrite(green_led, LOW);
+    digitalWrite(blue_led, LOW);
+    delay(1000);
 
-    // TODO 9:
-    // Set RED brightness using analogWrite()
-
-    // TODO 10:
-    // Set GREEN brightness using analogWrite()
-
-    // TODO 11:
-    // Set BLUE brightness using analogWrite()
-
-    // TODO 12:
-    // Add delay for visible transition
+    digitalWrite(red_led, HIGH);
+    digitalWrite(green_led, HIGH);
+    digitalWrite(blue_led, HIGH);
+    delay(1000);
 }
