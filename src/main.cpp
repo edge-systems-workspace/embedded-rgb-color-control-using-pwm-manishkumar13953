@@ -16,15 +16,9 @@ int green_led = 10;
 int blue_led = 11;
 
 void setup() {
-
-    // TODO 4:
-    // Initialize Serial communication (9600 baud)
-
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
-
-    // TODO 6:
-    // Print initialization message
+    pinMode(red_led, OUTPUT);
+    pinMode(green_led, OUTPUT);
+    pinMode(blue_led, OUTPUT);
 }
 
 void loop() {
